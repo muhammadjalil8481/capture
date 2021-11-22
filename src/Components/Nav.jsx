@@ -16,7 +16,7 @@ const Nav = () => {
           <motion.div
             className="line"
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/" ? "100%" : "0%" }}
+            animate={{ width: pathname === "/capture" ? "100%" : "0%" }}
             transition={{ duration: 0.75 }}
           ></motion.div>
         </li>
@@ -25,7 +25,7 @@ const Nav = () => {
           <motion.div
             className="line"
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/work" ? "100%" : "0%" }}
+            animate={{ width: pathname === "/capture/work" ? "100%" : "0%" }}
             transition={{ duration: 0.75 }}
           ></motion.div>
         </li>
@@ -34,7 +34,7 @@ const Nav = () => {
           <motion.div
             className="line"
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/contact" ? "100%" : "0%" }}
+            animate={{ width: pathname === "/capture/contact" ? "100%" : "0%" }}
             transition={{ duration: 0.75 }}
           ></motion.div>
         </li>
