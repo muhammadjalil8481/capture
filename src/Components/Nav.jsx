@@ -21,7 +21,6 @@ const Nav = () => {
           ></motion.div>
         </li>
         <li>
-          {/* Linking */}
           <Link to="/capture/work">Our Work</Link>
           <motion.div
             className="line"
