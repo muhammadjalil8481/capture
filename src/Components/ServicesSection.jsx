@@ -9,13 +9,13 @@ import { UseScroll } from "./UseScroll";
 import { fadeAnimation } from "../Pages/animation";
 
 const ServicesSection = () => {
-  const [element, control] = UseScroll();
+  // const [element, control] = UseScroll();
   return (
     <Services
-      ref={element}
-      initial="initial"
-      animate={control}
-      variants={fadeAnimation}
+    // ref={element}
+    // initial="initial"
+    // animate={control}
+    // variants={fadeAnimation}
     >
       <Description>
         <h2>
