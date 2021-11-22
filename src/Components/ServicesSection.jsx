@@ -10,13 +10,12 @@ import { fadeAnimation } from "../Pages/animation";
 
 const ServicesSection = () => {
   // const [element, control] = UseScroll();
+  // ref={element}
+  // initial="initial"
+  // animate={control}
+  // variants={fadeAnimation}
   return (
-    <Services
-    // ref={element}
-    // initial="initial"
-    // animate={control}
-    // variants={fadeAnimation}
-    >
+    <Services>
       <Description>
         <h2>
           High <span>quality</span> services
